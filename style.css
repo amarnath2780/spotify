@@ -1,0 +1,351 @@
+*{
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    margin:0; 
+    padding:0;
+}
+
+html{
+    padding: 0;
+   
+
+}
+
+body{
+    background:#fff;
+}
+/* Headder */
+.headder{
+    width: 100%;
+    height: 20%;
+    border-bottom: 2.2px solid rgb(217, 218, 220);
+    text-align: center;
+    padding: 0.4rem;
+}
+
+.headder .svg{
+    height: 2.7rem;
+    padding: 0.2rem;
+}
+/* End of Headder */
+
+/* Login  */
+.login{
+    padding-left: 9rem;
+    padding-right: 9rem;
+    padding-top: 1rem;
+}
+
+.log-button{
+    height: 1rem;
+    width: 3rem;
+}
+
+.login .log-box{
+    width: 100%;
+    height: 15rem;
+    
+}
+
+/* Login buttons */
+.login .log-box .log-button-F{
+    width: 100%;
+    height: 2.8rem;
+    background-color: rgb(59, 89, 152);
+    border-radius: 7rem;
+    border: none;
+    margin-top: 0.2rem;
+    
+}
+.login .log-box .log-button-F:hover{
+    border: solid #000;
+}
+.login .log-box .log-button-F:after{
+    opacity: 0.7;
+    outline: none;
+    transform: scale(1);
+    border-color: var(--essential-subdued,#878787);
+}
+
+.login .log-box .log-button-F a{
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 722;
+    letter-spacing: 1.2px;
+}
+.login .log-box .log-button-A{
+    width: 100%;
+    height: 2.8rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 7rem;
+    border: none;
+    margin-top: 0.7rem;
+}
+.login .log-box .log-button-A:hover{
+    border: solid #000;
+}
+.login .log-box .log-button-A a{
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 722;
+    letter-spacing: 1.2px;
+}
+
+.login .log-box .log-button-G{
+    width: 100%;
+    height: 2.8rem;
+    background-color: transparent;
+    border: 1px solid var(--essential-subdued,#878787);
+    border-radius: 7rem;
+    margin-top: 0.7rem;
+    color: var(--text-base,#000000);
+    
+}
+.login .log-box .log-button-G:hover{
+    border: solid #000;
+}
+.login .log-box .log-button-G a{
+    color: var(--text-subdued,#6a6a6a);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 722;
+    letter-spacing: 1.2px;
+}
+
+.login .log-box .log-button-N{
+    width: 100%;
+    height: 2.8rem;
+    background-color: transparent;
+    border: 1px solid var(--essential-subdued,#878787);
+    border-radius: 7rem;
+    margin-top: 0.7rem;
+    color: var(--text-base,#000000);
+    
+}
+.login .log-box .log-button-N:hover{
+    border: solid #000;
+}
+.login .log-box .log-button-N a{
+    color: var(--text-subdued,#6a6a6a);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 722;
+    letter-spacing: 1.2px;
+}
+
+.login .log-box .log-line{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.login .log-box .log-line .log-1{
+    margin: 29px 15px 20px;
+    flex: 1 1 0%;
+    border-top: 1px solid rgb(217, 218, 220);
+}
+.login .log-box .log-line  span{
+    color: #000000;
+    font-size: 0.8rem;
+    padding-top: 1.3rem;
+}
+
+.login .log-box .log-line .log-1 hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* End of Login buttons  */
+
+/* Login input box */
+
+.login .log-box .log-input {
+    display: block; 
+}
+
+.login .log-box .log-input .input-box {
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    width: 100%;
+    padding: 17px;
+    box-sizing: border-box;
+    border-radius: 9px;
+    border: 0px;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    box-shadow: inset 0 0 0 1px var(--essential-subdued,#878787);
+    color: var(--text-base,#000000);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.login .log-box .log-input .input-box:hover{
+    border: solid  #000;
+    border-width: 0.1px;
+}
+
+.login .log-box .log-input label{
+    font-size: 0.89rem;
+    line-height: 1.25rem;
+    width: 100%;
+    font-weight: 700;
+}
+
+.login .log-box .log-input a{
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.login .log-box .check-box{
+    margin-top: 0.8rem;
+    accent-color: #1ed760;
+}
+
+
+
+.login .log-box .login-button{
+    width: 100%;
+    color: #000;
+    background-color: var(--background-base,#1ed760);
+    height: 3.3rem;
+    border-radius: 6rem;
+    line-height: 20px;
+    font-weight: 700;
+    margin-top: 1.4rem;
+    border: 0;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.1rem;
+}
+.login .log-box .login-button:hover{
+    background-color: var(--background-highlight,#1fdf64);
+    border: solid  #000;
+    border-width: 0.1px;
+}
+.login .log-box .login-button:focus{
+    background-color: var(--background-highlight,#1fdf64);
+    border: solid  #000;
+    border-width: 3px;
+}
+
+.login .log-box  .log-2{
+    margin: 29px 10px 20px;
+    flex: 1 1 0%;
+    border-top: 1px solid rgb(217, 218, 220);
+}
+
+.login .log-box  .log-2 hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* End of login input box */
+
+/* Sign up */
+.login .log-box .end{
+    text-align: center;
+
+}
+.login .log-box .end label{
+    color: #000;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: bolder;
+
+}
+
+.login .log-box .end .sign-up-btn{
+    width: 100%;
+    height: 3rem;
+    font-size: 15px;
+    margin-top: 1.5rem;
+    border-radius: 8rem;
+    background-color: transparent;
+    border: 1px solid var(--essential-subdued,#878787);
+    color: var(--text-subdued,#6a6a6a);
+    line-height: 20px;
+    font-weight: 700;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+/* End of Signup */
+
+@media screen and (max-width: 1500px){
+    /* Login  */
+.login{
+    padding-left: 24rem;
+    padding-right: 24rem;
+    padding-top: 2rem;
+
+}
+}
+
+
+@media screen and (max-width: 1200px){
+    /* Login  */
+.login{
+    padding-left: 17rem;
+    padding-right: 17rem;
+    padding-top: 2rem;
+
+}
+
+@media screen and (max-width: 950px){
+    /* Login  */
+.login{
+    padding-left: 14rem;
+    padding-right: 14rem;
+    padding-top: 2rem;
+
+}
+
+}
+@media screen and (max-width: 700px){
+    /* Login  */
+.login{
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 1rem;
+
+}
+
+}
+
+
+@media screen and (max-width: 500px){
+    /* Login  */
+.login{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+ }
+
+}
+}
+
+@media screen and (max-width: 300px){
+    /* Login  */
+.login{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+}
+}
